@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "template-pet",
+  "name": "Template Pet",
+  "revision": 1,
+  "renderWidthPx": 96,
+  "renderHeightPx": 96,
+  "thumbnail": "thumbnail.png",
+  "states": {
+    "idle": {
+      "path": "states/idle.png",
+      "frameCount": 4,
+      "frameDurationMs": 240
+    },
+    "working": {
+      "path": "states/working.png",
+      "frameCount": 4,
+      "frameDurationMs": 160
+    },
+    "needsUserInput": {
+      "path": "states/needsUserInput.png",
+      "frameCount": 4,
+      "frameDurationMs": 120
+    },
+    "ready": {
+      "path": "states/ready.png",
+      "frameCount": 4,
+      "frameDurationMs": 160
+    }
+  }
+}

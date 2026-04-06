@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pet Creator"
+  short_description: "Create animated Codex desktop pets"
+  default_prompt: "Use $pet-creator to create or revise an animated Codex desktop pet pack."
